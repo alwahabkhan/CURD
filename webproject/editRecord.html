@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> WebProject </title>
+    <link rel="stylesheet" href="Resources/personsDataStyle.css" />
+  </head>
+
+  <body>
+    <h1>Personal Database</h1> <hr> <br>
+    <h3>Please provide the Email and Password to Edit the Record</h3> <br>
+
+        <form method="POST"   action="loadRecord.php">
+
+            <label for="email">Email</label>
+            <input type="text" name="txt_email" > <br> <br>
+
+            <label for ="lbl_pass">Password</label>
+            <input type ="text" name = "txt_password"> <br> <br> <br>
+
+            <input type ="submit" name = "btn_login"  value = "Retrieve Data" >    &nbsp; &nbsp;
+
+            
+            <span>
+                <a href = "#"> Refresh </a> <br>
+            </span>
+
+        </form>
+
+  </body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> WebProject </title>
+    <link rel="stylesheet" type="text/css " href="resource/style.css" />
+  </head>
+
+  <body>
+    <h1>Personal Database</h1> <hr>
+    <h2>Delete Record</h2>
+
+        <form method="POST"  class="modal-content" action="delRecord.php">
+
+          <div class="container">
+            <hr>
+            <label for="email">Email</label>
+            <input type="text" placeholder="Enter Email" name="email" required> <br>
+          
+            <label for="psw">Password</label>
+            <input type="password" placeholder="Enter Password" name="psw" required><br>
+            
+          </div>
+            
+            <input type ="submit" name = "btn_login"  value = "Retrieve The Record From Database" >    &nbsp; &nbsp;
+
+            <span>
+                <a href = "#"> Refresh </a> <br>
+            </span>
+         
+        </form>
+
+  </body>
+</html>
